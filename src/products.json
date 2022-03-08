@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "isInStock": true,
+    "img": "./images/img1.jpg",
+    "title": "Xiaomy 11 Lite 5G",
+    "price": "40000 ₽",
+    "category": "Cмартфоны"
+  },
+  {
+    "id": 2,
+    "isInStock": false,
+    "img": "./images/img2.jpg",
+    "title": "iPhone13 Pro",
+    "price": "500000 ₽",
+    "category": "Cмартфоны"
+  },
+  {
+    "id": 3,
+    "isInStock": true,
+    "img": "./images/img3.jpg",
+    "title": "Xiaomy Xiaomy",
+    "price": "20000 ₽",
+    "category": "Ноутбуки"
+  },
+  {
+    "id": 4,
+    "isInStock": true,
+    "img": "./images/img4.jpg",
+    "title": "Спиннер XS Max",
+    "price": "3000 ₽",
+    "category": "Разное"
+  },
+  {
+    "id": 5,
+    "isInStock": false,
+    "img": "./images/img5.jpg",
+    "title": "MacBook Air Pro",
+    "price": "1500000 ₽",
+    "category": "Ноутбуки"
+  },
+  {
+    "id": 6,
+    "isInStock": true,
+    "img": "./images/img6.jpg",
+    "title": "100% Whey Protein",
+    "price": "5000 ₽",
+    "category": "Sport Food"
+  }
+]
+  

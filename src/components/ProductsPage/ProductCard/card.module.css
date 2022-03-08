@@ -1,0 +1,82 @@
+.goods {
+    font-family: OpenSans, sans-serif;
+    color: #323c48;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+}
+
+.goodsNone {
+    color: #7e8fa4;
+}
+
+.goodsType {
+    color: #41ce7f;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+    padding-top: 15px;
+    padding-right: 11px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+}
+
+.goodsTypeNone {
+    background-color: #f5f6fa;
+    color: #7e8fa4;
+}
+
+.goodsImg {
+    box-shadow: 0 4px 8px 0 rgba(50, 60, 72, 0.1);
+}
+
+.goodsImgNone {
+    opacity: 0.5;
+}
+
+.goodsName {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.goodsLike {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 47px;
+    right: 0;
+    padding: 4px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.goodsLike:hover {
+    background-color: #fff0f3;
+}
+
+.goodsPrise {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 8px;
+}
+
+.likeIcon {
+    position: absolute;
+    bottom: 46px;
+    right: 0;
+    cursor: pointer;
+}

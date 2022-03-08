@@ -1,0 +1,73 @@
+.checkboxHeart {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 55px;
+    right: 5px;
+}
+
+.checkboxHeart input[type="checkbox"] {
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.checkboxHeart span {
+    position: relative;
+    display: block;
+    background-color: #323c48;
+    width: 12px;
+    height: 12px;
+    transition: 0.1s ease-in;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.checkboxHeart span:hover {
+    background-color: red;
+}
+
+
+.checkboxHeart span:active {
+    background-color: rgb(101, 0, 0);
+}
+
+.checkboxHeart span::before,
+.checkboxHeart span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: #323c48;
+    border-radius: 50%;
+    transition: 0.1s ease-in;
+}
+
+.checkboxHeart span:hover::before,
+.checkboxHeart span:hover::after {
+    background-color: red;
+}
+
+.checkboxHeart span:active::before,
+.checkboxHeart span:active::after {
+    background-color: rgb(101, 0, 0);
+}
+
+.checkboxHeart input[type="checkbox"]:checked + span,
+.checkboxHeart input[type="checkbox"]:checked + span:before,
+.checkboxHeart input[type="checkbox"]:checked + span:after {
+    background-color: red;
+}
+
+.checkboxHeart span::before {
+    top: -6px;
+    left: 0;
+}
+
+.checkboxHeart span::after {
+    top: 0;
+    left: -6px;
+}

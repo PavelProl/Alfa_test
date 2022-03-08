@@ -1,0 +1,50 @@
+.xIcon {
+    position: absolute;
+    display: block;
+    border: none;
+    padding: 0;
+    top: -18px;
+    right: -10px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.xIcon::before,
+.xIcon::after {
+    position: absolute;
+    left: 0;
+    width: 45%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #323c48;
+    transition: all 0.1s ease-in;
+}
+
+.xIcon::before {
+    content: "";
+    top: 50%;
+    left: 25%;
+    transform: rotate(-45deg) translate(0px, -50%);
+}
+
+.xIcon::after {
+    content: "";
+    bottom: 50%;
+    left: 25%;
+    transform: rotate(45deg) translate(0px, 50%);
+}
+
+.xIcon:hover::before,
+.xIcon:hover::after {
+    background-color: #41ce7f;
+}
+
+.xIcon:active::before,
+.xIcon:active::after {
+    background-color: #000;
+}

@@ -1,0 +1,16 @@
+.productsPageContent {
+    display: flex;
+    justify-content: center;
+    padding-left: 85px;
+    padding-right: 85px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.productPageFilterWrapper {
+    margin-right: 30px;
+}
+  
+.productPageFilterWrapper > * {
+    margin-bottom: 25px;
+}
