@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alfa_test/static/css/main.fcabb88b.css",
+    "main.js": "/Alfa_test/static/js/main.31a86c9c.js",
+    "index.html": "/Alfa_test/index.html",
+    "main.fcabb88b.css.map": "/Alfa_test/static/css/main.fcabb88b.css.map",
+    "main.31a86c9c.js.map": "/Alfa_test/static/js/main.31a86c9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcabb88b.css",
+    "static/js/main.31a86c9c.js"
+  ]
+}
